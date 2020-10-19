@@ -37,6 +37,7 @@ def matrix_lookup(matrix, row, column)
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
 
+nested_array[1][1] = "Potatoes"
 nested_array[1][1]
 end
 
