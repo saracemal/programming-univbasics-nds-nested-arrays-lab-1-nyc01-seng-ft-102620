@@ -36,7 +36,7 @@ def matrix_lookup(matrix, row, column)
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-nested_array[0][3]
+nested_array[0][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
