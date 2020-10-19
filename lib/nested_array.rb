@@ -26,7 +26,7 @@ end
 
 def sorted_matrix
   nested_array = [
-    ["Eggplant", "Grapefruit", "Oranges", "Pineapple" "Watermelon"],
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
     ]
 end
