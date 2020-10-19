@@ -36,7 +36,7 @@ def matrix_lookup(matrix, row, column)
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-nested_array[0][1]
+matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
@@ -44,6 +44,6 @@ def matrix_update(matrix, row, column, new_value)
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
     ]
-  nested_array[1][2] = "Lemons"
-  nested_array[1]
+  matrix[row][column] = new_value
+  matrix[row]
 end
